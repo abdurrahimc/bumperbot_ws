@@ -23,7 +23,7 @@ class SimplePublisher(Node):
 
 
         self.pub_.publish(msg)
-        self.counter += 1
+        self.counter_ += 1
 
 
 def main():
