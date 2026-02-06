@@ -42,7 +42,7 @@
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 25,
+				"line" : 26,
 				"parent" : 0
 			},
 			{
@@ -230,7 +230,8 @@
 			"paths" : 
 			[
 				"meshes",
-				"urdf"
+				"urdf",
+				"rviz"
 			],
 			"type" : "directory"
 		},
