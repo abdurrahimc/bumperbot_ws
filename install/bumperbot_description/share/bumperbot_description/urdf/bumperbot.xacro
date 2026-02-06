@@ -2,11 +2,11 @@
 
 <robot name="bumperbot" xmlns:xacro="http://ros.org/wiki/xacro">
 
-  <link name="base_footprint"/>
+  <link name="base_footprint"/> 
 
   <link name="base_link">
     <visual>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>  
       <geometry>
         <mesh filename="package://bumperbot_description/meshes/sasi.STL" scale="0.001 0.001 0.001"/>
       </geometry>
@@ -21,7 +21,7 @@
 
   <link name="wheel_right_link">
     <visual>
-      <origin xyz="0 -0.014 0" rpy="1.5708 0 0"/>
+      <origin xyz="0 0 0" rpy="1.5708 0 0"/>
       <geometry>
         <mesh filename="package://bumperbot_description/meshes/wheel_right_link.STL"/>
       </geometry>
@@ -31,7 +31,7 @@
   <joint name="wheel_right_joint" type="continuous">
     <parent link="base_link"/>
     <child link="wheel_right_link"/>
-    <axis xyz="0 1 0"/>
+    <axis xyz="0 1 0"/>  #Y ekseni etrafında döner
     <origin xyz="0 -0.0701101849418637 0" rpy="0 0 0"/>
   </joint>
 
@@ -66,7 +66,5 @@
     <child link="caster_wheel_link"/>
     <origin xyz="-0.092 0 0.010" rpy="0 0 0"/>
   </joint>
-
-
 
 </robot>
