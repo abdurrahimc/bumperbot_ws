@@ -1,1 +1,62 @@
-/home/saul/bumperbot_ws/src/bumperbot_description/urdf/bumperbot_ros2_control.xacro
+<?xml version="1.0"?>
+
+<robot name="bumperbot" xmlns:xacro="http://ros.org/wiki/xacro">
+
+
+  <ros2_control name="RobotSystem" type="System"> # system → tüm robot
+
+  # Gazebo donanım arayüzü seçiliyor (tekrar koşullu)
+
+    <xacro:if value="$(arg is_ignition)">
+      <hardware>
+        <plugin>ign_ros2_control/IgnitionSytem</plugin>
+      </hardware>
+    </xacro:if>
+
+    <xacro:unless value="$(arg is_ignition)">
+      <hardware>
+         <plugin>gz_ros2_control/GazebıSimSystem</plugin>
+      </hardware>
+    </xacro:unless>
+
+
+    <joint name="wheel_right_joint">
+
+      <command_interface name="velocity"> # Bu joint hızla kontrol edilecek
+        <parameter name="min">-1</parameter> 
+        <parameter name="max">1</parameter>
+      </command_interface>
+
+      # Geri bildirim (feedback), SLAM / odometry için zorunlu
+      <state_interface name="position"/> 
+      <state_interface name="velocity"/>
+
+    </joint>
+
+    <joint name="wheel_left_joint">
+       <command_interface>
+        <parameter name="min">-1</parameter>
+        <parameter name="max">1</parameter>
+       </command_interface>
+
+       <state_interface name="position"/>
+       <state_interface name="velocity"/>
+    </joint>
+
+
+
+  </ros2_control>
+  
+</robot>
+
+
+
+# NEDEN AYRI DOSYA?
+
+# URDF temiz kalsın
+
+# Gerçek robotta bu dosya değiştirilecek
+
+# Simülasyon / gerçek donanım ayrılacak
+
+# Bu profesyonel ROS yaklaşımıdır.

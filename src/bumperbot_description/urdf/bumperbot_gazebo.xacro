@@ -2,6 +2,7 @@
 
 <robot name="bumperbot" xmlns:xacro="http://ros.org/wiki/xacro">
 
+  <!-- Wheels -->
   <gazebo reference="wheel_left_link">
     <mu1>1000000000000000.0</mu1>
     <mu2>1000000000000000.0</mu2>
@@ -31,25 +32,21 @@
     <maxVel>1.0</maxVel>
   </gazebo>
 
+ <!-- ROS 2 Control -->
   <gazebo>
-
+    <!-- ROS 2 Humble -->
     <xacro:if value="$(arg is_ignition)">
       <plugin filename="ign_ros2_control-system" name="ign_ros2_control::IgnitionROS2ControlPlugin">
-      <parameters>$(find bumperbot_controller)/config/bumperbot_controller.yaml</parameters>
+        <parameters>$(find bumperbot_controller)/config/bumperbot_controllers.yaml</parameters>
       </plugin>
     </xacro:if>
 
-    # Gazebo’ya diyor ki: Benim motorlarımı ROS2 Control yönetecek
-
-
+    <!-- ROS 2 Iron or above -->
     <xacro:unless value="$(arg is_ignition)">
       <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
-      <parameters>$(find bumperbot_controller)/config/bumperbot_controller.yaml</parameters>
+        <parameters>$(find bumperbot_controller)/config/bumperbot_controllers.yaml</parameters>
       </plugin>
-    <xacro:unless>
-
-    # Aynı iş ama farklı plugin
-
+    </xacro:unless>
   </gazebo>
 
 </robot>

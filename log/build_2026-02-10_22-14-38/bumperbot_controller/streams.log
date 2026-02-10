@@ -1,0 +1,48 @@
+[0.027s] Invoking command in '/home/saul/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saul/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake /home/saul/bumperbot_ws/src/bumperbot_controller -DCMAKE_INSTALL_PREFIX=/home/saul/bumperbot_ws/install/bumperbot_controller
+[0.437s] -- The C compiler identification is GNU 11.4.0
+[0.882s] -- The CXX compiler identification is GNU 11.4.0
+[0.902s] -- Detecting C compiler ABI info
+[1.024s] -- Detecting C compiler ABI info - done
+[1.038s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.039s] -- Detecting C compile features
+[1.040s] -- Detecting C compile features - done
+[1.047s] -- Detecting CXX compiler ABI info
+[1.181s] -- Detecting CXX compiler ABI info - done
+[1.199s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.199s] -- Detecting CXX compile features
+[1.200s] -- Detecting CXX compile features - done
+[1.204s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.414s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.570s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.693s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.694s] -- Added test 'lint_cmake' to check CMake code style
+[1.695s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.697s] -- Added test 'xmllint' to check XML markup files
+[1.700s] -- Configuring done
+[1.703s] -- Generating done
+[1.707s] -- Build files have been written to: /home/saul/bumperbot_ws/build/bumperbot_controller
+[1.712s] Invoked command in '/home/saul/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saul/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake /home/saul/bumperbot_ws/src/bumperbot_controller -DCMAKE_INSTALL_PREFIX=/home/saul/bumperbot_ws/install/bumperbot_controller
+[1.715s] Invoking command in '/home/saul/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saul/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/saul/bumperbot_ws/build/bumperbot_controller -- -j8 -l8
+[1.765s] Invoked command in '/home/saul/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saul/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/saul/bumperbot_ws/build/bumperbot_controller -- -j8 -l8
+[1.781s] Invoking command in '/home/saul/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saul/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/saul/bumperbot_ws/build/bumperbot_controller
+[1.791s] -- Install configuration: ""
+[1.791s] -- Installing: /home/saul/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[1.791s] -- Installing: /home/saul/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controller.yaml
+[1.791s] -- Installing: /home/saul/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+[1.792s] -- Installing: /home/saul/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[1.792s] -- Installing: /home/saul/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[1.792s] -- Installing: /home/saul/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[1.792s] -- Installing: /home/saul/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[1.792s] -- Installing: /home/saul/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[1.793s] -- Installing: /home/saul/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[1.793s] -- Installing: /home/saul/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[1.793s] -- Installing: /home/saul/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[1.793s] -- Installing: /home/saul/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[1.794s] -- Installing: /home/saul/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[1.794s] -- Installing: /home/saul/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[1.794s] -- Installing: /home/saul/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[1.794s] -- Installing: /home/saul/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[1.794s] -- Installing: /home/saul/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[1.795s] -- Installing: /home/saul/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[1.795s] -- Installing: /home/saul/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[1.798s] Invoked command in '/home/saul/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saul/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/saul/bumperbot_ws/build/bumperbot_controller
