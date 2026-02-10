@@ -5,6 +5,7 @@
 /home/saul/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_right_link.STL
 /home/saul/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot.xacro
 /home/saul/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_gazebo.xacro
+/home/saul/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_ros2_control.xacro
 /home/saul/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/display.launch.py
 /home/saul/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/gazebo.launch.py
 /home/saul/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/package_run_dependencies/bumperbot_description
