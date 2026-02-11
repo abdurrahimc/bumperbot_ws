@@ -1,24 +1,16 @@
-controller_manager: # Controller Manager bir ROS node ve ayarlar node adına göre yazılır
-  ros_parameters:
-  update_rates: 100
-  use_sim_time: true
+controller_manager:
+  ros__parameters:
+    update_rate: 100
+    use_sim_time: true
 
-  joint_state_broadcaster:
-    type: joint_state_broadcaster/ JointStateBroadcaster 
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
 
-    #Bu ne yapar? Tekerlerin: pozisyonunu, hızını topic olarak yayınlar
+    simple_velocity_controller:
+      type: velocity_controllers/JointGroupVelocityController
 
-  simple_velocity_controller:
-    type: velocity_controller/ JointGroupVelocityController
-
-  
-  simple_velocity_controller:  # Bu controller hangi joint’leri sürecek?
-    ros_parameters:
-      joints:
-        - left_wheel_joint
-        - right_wheel_joint
-
-
-        # 📌 Mantık:
-        # Gazebo → ROS2 Control → Controller Manager
-        # “Bu YAML’ı kullan”
+simple_velocity_controller:
+  ros__parameters:
+    joints:
+      - left_wheel_joint
+      - right_wheel_joint

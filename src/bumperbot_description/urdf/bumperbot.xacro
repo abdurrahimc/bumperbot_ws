@@ -6,7 +6,7 @@
   
   <xacro:include filename="$(find bumperbot_description)/urdf/bumperbot_gazebo.xacro"/>
 
-  <xacro:include filename="$(find bmperbot_descriptio)udf/bumperbot_ros2_control.xacro"/>
+  <xacro:include filename="$(find bumperbot_description)/urdf/bumperbot_ros2_control.xacro"/>
 
   <!-- Base Footprint Link -->
   <link name="base_footprint"/> 
