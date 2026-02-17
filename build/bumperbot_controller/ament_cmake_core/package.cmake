@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "bumperbot_controller")
 set(bumperbot_controller_VERSION "0.0.0")
-set(bumperbot_controller_MAINTAINER "Antonio Brandi <antonio.brandi@outlook.it>")
+set(bumperbot_controller_MAINTAINER "saul <abdurrahimc165@gmail.com>")
 set(bumperbot_controller_BUILD_DEPENDS "rclcpp" "rclpy" "geometry_msgs" "std_msgs" "sensor_msgs" "nav_msgs" "tf2_ros" "tf2" "eigen")
 set(bumperbot_controller_BUILDTOOL_DEPENDS "ament_cmake" "ament_cmake_python")
 set(bumperbot_controller_BUILD_EXPORT_DEPENDS "rclcpp" "rclpy" "geometry_msgs" "std_msgs" "sensor_msgs" "nav_msgs" "tf2_ros" "tf2" "eigen")

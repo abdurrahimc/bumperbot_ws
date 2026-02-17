@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "bumperbot_firmware")
 set(bumperbot_firmware_VERSION "0.0.0")
-set(bumperbot_firmware_MAINTAINER "Antonio Brandi <antonio.brandi@outlook.it>")
+set(bumperbot_firmware_MAINTAINER "saul <abdurrahimc165@gmail.com>")
 set(bumperbot_firmware_BUILD_DEPENDS "rclcpp" "rclpy" "std_msgs" "hardware_interface" "rclcpp_lifecycle" "pluginlib" "libserial-dev")
 set(bumperbot_firmware_BUILDTOOL_DEPENDS "ament_cmake" "ament_cmake_python")
 set(bumperbot_firmware_BUILD_EXPORT_DEPENDS "rclcpp" "rclpy" "std_msgs" "hardware_interface" "rclcpp_lifecycle" "pluginlib" "libserial-dev")

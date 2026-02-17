@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "bumperbot_description")
 set(bumperbot_description_VERSION "0.0.0")
-set(bumperbot_description_MAINTAINER "Antonio Brandi <antonio.brandi@outlook.it>")
+set(bumperbot_description_MAINTAINER "saul <abdurrahimc165@gmail.com>")
 set(bumperbot_description_BUILD_DEPENDS )
 set(bumperbot_description_BUILDTOOL_DEPENDS "ament_cmake")
 set(bumperbot_description_BUILD_EXPORT_DEPENDS )

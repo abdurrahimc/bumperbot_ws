@@ -4,9 +4,9 @@
   <name>bumperbot_firmware</name>
   <version>0.0.0</version>
   <description>The bumperbot_firmware package</description>
-  <maintainer email="antonio.brandi@outlook.it">Antonio Brandi</maintainer>
+  <maintainer email="abdurrahimc165@gmail.com">saul</maintainer>
   <license>Apache 2.0</license>
-  <author email="antonio.brandi@outlook.it">Antonio Brandi</author>
+  <author email="abdurrahimc165@gmail.com">Abdurrahim Çalışkan</author>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
   <buildtool_depend>ament_cmake_python</buildtool_depend>

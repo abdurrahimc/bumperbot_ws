@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "bumperbot_msgs")
 set(bumperbot_msgs_VERSION "0.0.0")
-set(bumperbot_msgs_MAINTAINER "Antonio Brandi <antonio.brandi@outlook.it>")
+set(bumperbot_msgs_MAINTAINER "saul <abdurrahimc165@gmail.com>")
 set(bumperbot_msgs_BUILD_DEPENDS "rosidl_default_generators" "geometry_msgs")
 set(bumperbot_msgs_BUILDTOOL_DEPENDS "ament_cmake")
 set(bumperbot_msgs_BUILD_EXPORT_DEPENDS "geometry_msgs")

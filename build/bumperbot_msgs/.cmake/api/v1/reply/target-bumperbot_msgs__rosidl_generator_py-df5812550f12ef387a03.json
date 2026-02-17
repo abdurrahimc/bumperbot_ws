@@ -267,16 +267,16 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 14,
-			"id" : "bumperbot_msgs__py::@1de889eddad65f2f66e1"
-		},
-		{
 			"backtrace" : 13,
 			"id" : "bumperbot_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 14,
 			"id" : "bumperbot_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "bumperbot_msgs__py::@1de889eddad65f2f66e1"
 		}
 	],
 	"id" : "bumperbot_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",

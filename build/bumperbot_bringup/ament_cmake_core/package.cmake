@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "bumperbot_bringup")
 set(bumperbot_bringup_VERSION "0.0.0")
-set(bumperbot_bringup_MAINTAINER "Antonio Brandi <antonio.brandi@outlook.it>")
+set(bumperbot_bringup_MAINTAINER "saul <abdurrahimc165@gmail.com>")
 set(bumperbot_bringup_BUILD_DEPENDS )
 set(bumperbot_bringup_BUILDTOOL_DEPENDS "ament_cmake")
 set(bumperbot_bringup_BUILD_EXPORT_DEPENDS )

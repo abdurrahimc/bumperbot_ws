@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "bumperbot_cpp_examples")
 set(bumperbot_cpp_examples_VERSION "0.0.0")
-set(bumperbot_cpp_examples_MAINTAINER "Antonio Brandi <antonio.brandi@outlook.it>")
+set(bumperbot_cpp_examples_MAINTAINER "saul <abdurrahimc165@gmail.com>")
 set(bumperbot_cpp_examples_BUILD_DEPENDS "rclcpp" "std_msgs" "rcl_interfaces" "bumperbot_msgs" "geometry_msgs" "tf2" "tf2_ros" "turtlesim" "rclcpp_lifecycle")
 set(bumperbot_cpp_examples_BUILDTOOL_DEPENDS "ament_cmake")
 set(bumperbot_cpp_examples_BUILD_EXPORT_DEPENDS "rclcpp" "std_msgs" "rcl_interfaces" "bumperbot_msgs" "geometry_msgs" "tf2" "tf2_ros" "turtlesim" "rclcpp_lifecycle")

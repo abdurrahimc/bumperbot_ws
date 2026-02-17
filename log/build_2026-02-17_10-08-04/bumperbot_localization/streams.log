@@ -1,0 +1,30 @@
+[0.042s] Invoking command in '/home/saul/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saul/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/saul/bumperbot_ws/build/bumperbot_localization -- -j8 -l8
+[0.083s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.346s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.357s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.419s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.424s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.439s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.463s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.495s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.582s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.582s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.622s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.718s] -- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+[0.718s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.774s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.028s] -- Configuring done
+[1.060s] -- Generating done
+[1.074s] -- Build files have been written to: /home/saul/bumperbot_ws/build/bumperbot_localization
+[1.123s] [35m[1mConsolidate compiler generated dependencies of target kalman_filter[0m
+[1.123s] [35m[1mConsolidate compiler generated dependencies of target imu_republisher[0m
+[1.151s] [  0%] Built target ament_cmake_python_symlink_bumperbot_localization
+[1.157s] [ 50%] Built target imu_republisher
+[1.158s] [100%] Built target kalman_filter
+[1.683s] running egg_info
+[1.685s] writing bumperbot_localization.egg-info/PKG-INFO
+[1.685s] writing dependency_links to bumperbot_localization.egg-info/dependency_links.txt
+[1.686s] writing top-level names to bumperbot_localization.egg-info/top_level.txt
+[1.690s] reading manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[1.692s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[1.735s] [100%] Built target ament_cmake_python_build_bumperbot_localization_egg
