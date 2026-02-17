@@ -1,0 +1,1 @@
+/home/saul/bumperbot_ws/build/bumperbot_firmware/ament_cmake_core/bumperbot_firmwareConfig-version.cmake

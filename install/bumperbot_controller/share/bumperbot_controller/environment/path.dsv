@@ -1,1 +1,1 @@
-prepend-non-duplicate-if-exists;PATH;bin
+/home/saul/bumperbot_ws/build/bumperbot_controller/ament_cmake_environment_hooks/path.dsv

@@ -1,0 +1,60 @@
+[0.028s] Invoking command in '/home/saul/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/saul/bumperbot_ws/src/bumperbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/saul/bumperbot_ws/install/bumperbot_description
+[0.131s] -- The C compiler identification is GNU 11.4.0
+[0.246s] -- The CXX compiler identification is GNU 11.4.0
+[0.261s] -- Detecting C compiler ABI info
+[0.383s] -- Detecting C compiler ABI info - done
+[0.404s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.404s] -- Detecting C compile features
+[0.406s] -- Detecting C compile features - done
+[0.413s] -- Detecting CXX compiler ABI info
+[0.562s] -- Detecting CXX compiler ABI info - done
+[0.583s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.583s] -- Detecting CXX compile features
+[0.584s] -- Detecting CXX compile features - done
+[0.588s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.907s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.014s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.088s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[1.288s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.499s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.504s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.506s] -- Added test 'lint_cmake' to check CMake code style
+[1.507s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.511s] -- Added test 'xmllint' to check XML markup files
+[1.514s] -- Configuring done
+[1.520s] -- Generating done
+[1.523s] -- Build files have been written to: /home/saul/bumperbot_ws/build/bumperbot_description
+[1.534s] Invoked command in '/home/saul/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/saul/bumperbot_ws/src/bumperbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/saul/bumperbot_ws/install/bumperbot_description
+[1.537s] Invoking command in '/home/saul/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/saul/bumperbot_ws/build/bumperbot_description -- -j8 -l8
+[1.611s] Invoked command in '/home/saul/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/saul/bumperbot_ws/build/bumperbot_description -- -j8 -l8
+[1.613s] Invoking command in '/home/saul/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/saul/bumperbot_ws/build/bumperbot_description
+[1.623s] -- Install configuration: ""
+[1.624s] -- Execute custom install script
+[1.624s] -- Symlinking: /home/saul/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/display.launch.py
+[1.636s] -- Symlinking: /home/saul/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/gazebo.launch.py
+[1.651s] -- Symlinking: /home/saul/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/base_link.STL
+[1.664s] -- Symlinking: /home/saul/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_front_link.STL
+[1.676s] -- Symlinking: /home/saul/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_rear_link.STL
+[1.692s] -- Symlinking: /home/saul/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/imu_link.STL
+[1.707s] -- Symlinking: /home/saul/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_left_link.STL
+[1.722s] -- Symlinking: /home/saul/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_right_link.STL
+[1.737s] -- Symlinking: /home/saul/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot.urdf.xacro
+[1.757s] -- Symlinking: /home/saul/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_gazebo.xacro
+[1.774s] -- Symlinking: /home/saul/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_ros2_control.xacro
+[1.789s] -- Symlinking: /home/saul/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz/display.rviz
+[1.805s] -- Symlinking: /home/saul/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/package_run_dependencies/bumperbot_description
+[1.820s] -- Symlinking: /home/saul/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/parent_prefix_path/bumperbot_description
+[1.838s] -- Symlinking: /home/saul/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.sh
+[1.858s] -- Symlinking: /home/saul/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.dsv
+[1.874s] -- Symlinking: /home/saul/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.sh
+[1.889s] -- Symlinking: /home/saul/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.dsv
+[1.902s] -- Symlinking: /home/saul/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.bash
+[1.914s] -- Symlinking: /home/saul/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.sh
+[1.931s] -- Symlinking: /home/saul/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.zsh
+[1.946s] -- Symlinking: /home/saul/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.dsv
+[1.959s] -- Symlinking: /home/saul/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.dsv
+[1.971s] -- Symlinking: /home/saul/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/packages/bumperbot_description
+[1.984s] -- Symlinking: /home/saul/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig.cmake
+[1.997s] -- Symlinking: /home/saul/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig-version.cmake
+[2.008s] -- Symlinking: /home/saul/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.xml
+[2.026s] Invoked command in '/home/saul/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/saul/bumperbot_ws/build/bumperbot_description

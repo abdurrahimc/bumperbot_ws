@@ -1,0 +1,1 @@
+/home/saul/bumperbot_ws/build/bumperbot_firmware/ament_cmake_environment_hooks/local_setup.zsh
